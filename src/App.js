@@ -36,7 +36,7 @@ const App = () => {
             ))
             }
              {globalState.reducer2.appData.map((value,index)=>(
-               <div key={index+"@"}> 
+               <div key={index+"@1"}> 
                    <ul>{value}</ul>
                </div>
             ))}
